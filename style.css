@@ -248,6 +248,9 @@ table {
     width: 10rem;
     margin-bottom: -1rem;
 }
+.linkss {
+    padding-bottom: 50rem;
+}
 
 
 /* intressen */
@@ -288,7 +291,11 @@ table {
 
 /* Optimering för mobilläge */
 @media only screen and (max-width: 600px) {
-    h3 h5 {
+    h3 {
+        text-align: center;
+        margin-right: 4rem;
+    }
+    h5 {
         text-align: center;
         margin-right: 4rem;
     }
@@ -298,12 +305,19 @@ table {
         margin-right: -1rem;
     }
 
-    .foot h2 h6{
+    .foot h2 {
         font-size: 1.25rem;
         padding-top: 12rem;
         margin-bottom: -5rem;
         text-align: center;
     }
+    .foot h6 {
+        font-size: 1.25rem;
+        padding-top: 12rem;
+        margin-bottom: -5rem;
+        text-align: center;
+    }
+
 
     .footimg {
         padding-left: 5.5rem;
@@ -318,5 +332,18 @@ table {
     .crewpic {
         width: 100%;
         margin-top: -4rem;
+    }
+
+    .anime {
+        padding-bottom: 70rem;
+    }
+
+    .anime img {
+        width: 100%;
+        margin-bottom: 10rem;
+    }
+
+    .container-lol h3 {
+        text-align: center;
     }
 }
